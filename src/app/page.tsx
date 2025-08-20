@@ -1,7 +1,12 @@
-import Image from "next/image";
+'use client'
+import { useState } from "react";
+import Header from "./components/Header";
 
 export default function Home() {
+   const [currentPage, setCurrentPage] = useState('')
   return (
-    <></>
+    <>
+      <Header setCurrentPage={setCurrentPage}/> 
+    </>
   );
 }
