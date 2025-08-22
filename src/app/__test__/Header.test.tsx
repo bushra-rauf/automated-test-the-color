@@ -1,5 +1,5 @@
  import {fireEvent, render, screen} from '@testing-library/react'
- import Header from './index'
+ import Header from '../components/Header';
  import "@testing-library/jest-dom";
 
  describe("testing the Header and the navlinks funcionality", () => {

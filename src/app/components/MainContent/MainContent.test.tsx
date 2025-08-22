@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import MainContent from "../components/MainContent";
+import MainContent from ".";
 import "@testing-library/jest-dom";
 
 jest.mock("next/image", () => ({
