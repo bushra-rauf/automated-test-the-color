@@ -5,7 +5,7 @@ type HeaderProps = {
 const Header = ({setCurrentPage}: HeaderProps) => {
    return(
     <>   
-     <header className="flex items-center justify-between bg-gray-800 text-white p-4 flex  " >
+     <header className="flex items-center justify-between bg-gray-800 text-white p-4  " >
         <h1 className='text-3xl font-extra-bold mx-auto bg-gradient-to-r from-pink-500 via-yellow-500 to-blue-500
           text-transparent bg-clip-text
 '>Color Picker</h1>
