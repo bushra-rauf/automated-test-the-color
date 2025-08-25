@@ -1,5 +1,5 @@
 import {render, screen, fireEvent} from "@testing-library/react"
-import RootLayout from "./layout"
+import RootLayout from "../layout";
 
 describe("integration testing home page functionality", () => {
   it("renders the logo text on the home page", () => {
