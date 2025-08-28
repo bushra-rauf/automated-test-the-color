@@ -2,9 +2,19 @@ Test Feedback:
 
 Some tests could benefit from clearer names and roles (e.g., using <button> instead of <a>)
 
+By clicking generates a different color and it should be different from previous one.
+
 Suggested adding tests for color format validation and state changes
+
 
 Some Test Added :
 I have added color Format validation test.
-By clicking generates a different color and it shpuöd be different from previous one. 
-and some unit test.
+By clicking generates a different color and it should be different from previous one. 
+and I have added some unit tests.
+
+same test can be added for rgb page.
+
+and at the end, All the written test was great.
+
+
+
