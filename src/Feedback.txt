@@ -1,0 +1,10 @@
+Test Feedback:
+
+Some tests could benefit from clearer names and roles (e.g., using <button> instead of <a>)
+
+Suggested adding tests for color format validation and state changes
+
+Some Test Added :
+I have added color Format validation test.
+By clicking generates a different color and it shpuöd be different from previous one. 
+and some unit test.

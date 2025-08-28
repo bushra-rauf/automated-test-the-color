@@ -59,3 +59,17 @@ describe('testing elements, props and button functionality in ColorPick comp.', 
     expect(handleClick).toHaveBeenCalledTimes(1);
   });
 });
+ // ColorPick component renders and styles itself based on props.
+
+ 
+  test ('Applies a correct color background style', () => {
+    render(<ColorPick color="#ff0000" colorHeading="HEX" onClick= {()=> {}}/>)
+    const container = screen.getByTestId('color-pick-container')
+    expect(container).toHaveStyle({backgroundColor: "#ff0000"})
+  })
+
+  test('Applies the correct RBG background color style',() =>{
+    render(<ColorPick color ="rgb(255, 255, 255)" colorHeading='RGB' onClick={()=> {}}/>)
+    const container = screen.getByTestId('color-pick-container')
+    expect (container).toHaveStyle({ backgroundColor:"rgb(255, 255, 255)"})
+  })
